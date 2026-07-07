@@ -51,7 +51,7 @@ const Login = () => {
         <div>
           <label className="mb-1.5 block text-sm font-medium text-secondary-t">Email</label>
           <div className="relative">
-            <Mail className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
             <input
               id="email"
               type="email"
@@ -64,11 +64,10 @@ const Login = () => {
             <p className="mt-1.5 text-xs text-red-500">{formik.errors.email}</p>
           )}
         </div>
-
         <div>
           <label className="mb-1.5 block text-sm font-medium text-secondary-t">Password</label>
           <div className="relative">
-            <Lock className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
             <input
               id="password"
               type={showPassword ? 'text' : 'password'}

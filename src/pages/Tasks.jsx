@@ -147,7 +147,7 @@ const Tasks = () => {
       <div className="premium-card p-4 space-y-4">
         <div className="flex gap-3">
           <div className="relative flex-1">
-            <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-sidebar-muted-t mr-4" />
             <input
               type="search"
               placeholder="Search tasks by title..."

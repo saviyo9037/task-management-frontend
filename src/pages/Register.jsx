@@ -52,11 +52,11 @@ const Register = () => {
         <div>
           <label className="mb-1.5 block text-sm font-medium text-secondary-t">Full Name</label>
           <div className="relative">
-            <User className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
             <input
               id="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Enter Your  Name"
               {...formik.getFieldProps('name')}
               className={inputClass('name')}
             />
@@ -69,7 +69,7 @@ const Register = () => {
         <div>
           <label className="mb-1.5 block text-sm font-medium text-secondary-t">Email</label>
           <div className="relative">
-            <Mail className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
             <input
               id="email"
               type="email"
@@ -86,7 +86,7 @@ const Register = () => {
         <div>
           <label className="mb-1.5 block text-sm font-medium text-secondary-t">Password</label>
           <div className="relative">
-            <Lock className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
+            <p className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-sidebar-muted-t" />
             <input
               id="password"
               type={showPassword ? 'text' : 'password'}
