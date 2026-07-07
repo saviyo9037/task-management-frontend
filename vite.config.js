@@ -15,6 +15,9 @@
       port: 3000,
       strictPort: false
     },
+    build: {
+      outDir: 'dist'
+    },
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
